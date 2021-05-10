@@ -15,7 +15,6 @@ function App() {
           <option value="EUR">EUR</option>
           <option value="GBP">GBP</option>
           <option value="ZAR">ZAR</option>
-          <option value="AUD">AUD</option>
         </select>
       </form>
       <p>Availability: </p>
