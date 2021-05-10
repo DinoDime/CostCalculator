@@ -15,13 +15,9 @@ function App() {
           <option value="EUR">EUR</option>
         </select>
       </form>
-      <p>Availability: </p>
-      <select name="dropdown">
-        <option value="Standard">Standard</option>
-        <option value="High">High</option>
-      </select>
     </div>
   );
 }
 
 export default App;
+m;

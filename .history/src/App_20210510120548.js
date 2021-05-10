@@ -1,8 +1,7 @@
-import logo from "./logo.svg";
 import "./App.css";
 import React from "react";
 
-function App() {
+export default function App() {
   return (
     <div>
       <p>Currency: </p>
@@ -15,13 +14,6 @@ function App() {
           <option value="EUR">EUR</option>
         </select>
       </form>
-      <p>Availability: </p>
-      <select name="dropdown">
-        <option value="Standard">Standard</option>
-        <option value="High">High</option>
-      </select>
     </div>
   );
 }
-
-export default App;
