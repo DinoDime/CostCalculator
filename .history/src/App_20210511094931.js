@@ -3,14 +3,10 @@ import React from "react";
 import useForm from "react-hook-form";
 
 function App() {
-  const { handleSubmit } = useForm();
-
-  const onSubmit = (data) => {
-    console.log(data);
-  };
+  const { register, handleSubmit, errors } = useForm();
 
   return (
-    <form onSubmit={handleSubmit(onSubmit)}>
+    <form onSubmit={handleSubmit}>
       <p>Currency: </p>
       <select name="dropdown">
         <option value="USD" selected>
