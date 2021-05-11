@@ -16,21 +16,11 @@ function App() {
         <option value="USD" selected>
           USD
         </option>
-        <option value="CHF" name="CHF">
-          CHF
-        </option>
-        <option value="EUR" name="EUR">
-          EUR
-        </option>
-        <option value="GBP" name="GBP">
-          GBP
-        </option>
-        <option value="ZAR" name="ZAR">
-          ZAR
-        </option>
-        <option value="AUD" name="AUD">
-          AUD
-        </option>
+        <option value="CHF" name="CHF">CHF</option>
+        <option value="EUR" name="EUR">EUR</option>
+        <option value="GBP" name="GBP">GBP</option>
+        <option value="ZAR" name="ZAR">ZAR</option>
+        <option value="AUD" name=AUD">AUD</option>
       </select>
 
       <p>Availability: </p>
